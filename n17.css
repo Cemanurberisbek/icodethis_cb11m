@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Mukta:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:wght@300;400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.alan1{
+height: 250px;
+width: 200px;
+background-color: white;
+box-shadow: 0 0 10px 0 gray;
+position: relative;
+border-radius: 5px 5px 5px 5px;
+top:130px;
+left: 500px;
+font-family: 'Mukta', sans-serif;
+}
+.alan2{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 gray;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    top:-10px;
+    right: -760px;
+    font-family: 'Mukta', sans-serif;
+}
+.telefon{
+    background-image: url("/İCodeThis/images/telefon.jpg");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    left: 70px;
+    top:20px;
+}
+.nn{
+position: absolute;
+top:200px;
+left:25px;
+width: 80px;
+height: 30px;
+border-radius: 20px 20px 20px 20px;
+border: 1px solid red;
+color: red;
+}
+.nn:hover{
+    transform: scale(1.02);
+    }
+.an{
+    position: absolute;
+    top:200px;
+    left:110px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    color:white;
+    border: none;
+    background-color: red;
+    }
+    .an:hover{
+    transform: scale(1.02);
+    }
+    .carpi1{
+    position: absolute;
+    top:10px;
+    left: 180px;
+    border: none;
+    color: gray;
+    background-color: white;
+    }
+    .carpi1:hover{
+    transform: scale(1,02);
+    }
+    .baslik{
+    position: relative;
+    font-size: medium;
+    top: 100px;
+    text-align:center;
+    }
+    .baslikalti{
+    position: absolute;
+    font-size: small;
+    top: 130px;
+    text-align:center;
+    }
+    .ates{
+        background-image: url("/İCodeThis/images/ates.webp");
+        height: 70px;
+        width: 70px;
+        background-size: cover;
+        position: absolute;
+        border-radius: 50%;
+        left: 70px;
+        top:20px;
+    }
+    .baslik2{
+        position: relative;
+        font-size: medium;
+        top: 100px;
+        text-align:center;
+    }
+    .baslikalti2{
+        position: absolute;
+        font-size: small;
+        top: 160px;
+        text-align:center;
+    }
+    .mail{
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: small;
+    border: none;
+    }
+    .subrb{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        width: 150px;
+        border-radius: 10px 10px 10px 10px;
+        color: white;
+        background-color: red;
+        border: none;
+    }
+    .carpi2{
+    position: absolute;
+    top:8px;
+    left: 180px;
+    border: none;
+    background-color: white;
+    }
+    .carpi2:hover{
+    transform: scale(1.02);
+    }

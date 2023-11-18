@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Mukta:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:wght@300&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(47, 54, 81);
+}
+.kutu1{
+height: 180px;
+width: 400px;
+background-color: rgb(67, 101, 226);
+position: relative;
+top:300px;
+left:390px;
+border-radius: 5px 5px 5px 5px;
+color: white;
+font-family: 'Lato', sans-serif;
+}
+.baslik1{
+color: white;
+font-weight: bold;
+font-size: 20px;
+position: absolute;
+top:45px;
+left: 35px;
+font-family: 'Lato', sans-serif;
+}
+.aciklama{
+color: rgb(243, 241, 241);
+font-size: 40;
+position: absolute;
+top: 80px;
+left: 35px;
+font-family: 'Lato', sans-serif;
+}
+.ileri1{
+font-weight: bold;
+background-color: rgb(67, 101, 226);
+font-size: 50px;
+position: absolute;
+top:60px;
+left: 360px;
+color: white;
+border-radius: 100%;
+font-family: 'Lato', sans-serif;
+border: none;
+}
+.kutu2{
+    height: 180px;
+    width: 400px;
+    background-color: rgb(67, 101, 226);
+    position: relative;
+    top:320px;
+    left:390px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.baslik2{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top:29px;
+    left: 35px;
+    font-family: 'Lato', sans-serif;
+}
+.adres1{
+position: absolute;
+top:65px;
+left: 35px;
+color: rgb(217, 215, 215);
+font-family: 'Lato', sans-serif;
+}
+.adres1:hover{
+    transform: scale(1.02);
+}
+.adres2{
+    position: absolute;
+    top:85px;
+    left: 35px;
+    color: rgb(217, 215, 215);
+    font-family: 'Lato', sans-serif;
+    }
+    .adres2:hover{
+        transform: scale(1.02);
+    }
+.ileri2{
+    font-weight: bold;
+    background-color: rgb(67, 101, 226);
+    font-size: 30px;
+    position: absolute;
+    top: 55px;
+    left: 215px;
+    color: white;
+    border-radius: 100%;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    }
+    .ileri3{
+        font-weight: bold;
+        background-color: rgb(67, 101, 226);
+        font-size: 30px;
+        position: absolute;
+        top: 80px;
+        left: 215px;
+        color: white;
+        border-radius: 100%;
+        font-family: 'Lato', sans-serif;
+        border: none;
+        }
+.kutu3{
+    height: 380px;
+    width: 400px;
+    background-color: rgb(67, 101, 226);
+    position: relative;
+    top:320px;
+    left:390px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    top: -60px;
+    left: 810px;;
+    font-family: 'Lato', sans-serif;
+    }
+.fotograf{
+    background-image: url("/İCodeThis/images/manzara2.png");
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    background-size: cover;
+    top: 40px;
+    left: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+.baslik3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:210px;
+    left: 50px;
+    font-family: 'Lato', sans-serif;
+}
+.tarih{
+position: absolute;
+top:240px;
+left: 50px;
+font-family: 'Lato', sans-serif;
+color: rgb(109, 136, 237);
+}
+.wt{
+position: absolute;
+top: 280px;
+left: 65px;
+color: white;
+background-color: rgb(100, 131, 246);
+border: none;
+border-radius: 5px 5px 5px 5px;
+}
+.wt:hover{
+background-color: lightblue;
+transform: scale(1.1);
+
+}
+
+

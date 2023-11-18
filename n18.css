@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: rgb(205, 235, 234);
+}
+.anaAlan{
+height: 450px;
+width: 350px;
+background-color: white;
+border-radius: 20px 20px 20px 20px;
+position: relative;
+top:150px;
+box-shadow: -30px -28px 1px 6px rgb(183, 212, 229);
+}
+.fisbasligi{
+font-weight: bold;
+font-size: large;
+color: black;
+position: absolute;
+top: 20px;
+left:20px;
+}
+.id{
+color: rgb(139, 138, 138);
+position: absolute;
+font-size: small;
+top:50px;
+left:20px;
+}
+.supurge{
+    background-image: url("/İCodeThis/images/supurge.png");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    left: 10px;
+    top:90px;
+}
+.ürünaciklamasi{
+position: absolute;
+top: 100px;
+left: 100px;
+font-size: x-small;
+}
+.packet{
+position: absolute;
+top: 260px;
+left: 40px;
+color: rgb(41, 41, 41);
+font-size: 15px;
+}
+.packetbilgi{
+    position: absolute;
+    top: 260px;
+    font-weight: bold;
+    left: 270px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.Total{
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    color: rgb(41, 41, 41);
+    font-size: 15px;
+    }
+    .hesap{
+        position: absolute;
+        top: 290px;
+        font-weight: bold;
+        left: 270px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+    }
+    .kalan{
+        position: absolute;
+        top: 320px;
+        font-weight: bold;
+        left: 270px;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+    }
+    .tnok{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    }
+    .code{
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    font-size: small;
+    }
+    .eksı{
+    position: absolute;
+    top:165px;
+    left: 110px;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px 2px 2px 2px;
+    background-color:lightblue ;
+    border: transparent;
+    }
+    .eksı:hover{
+    transform: scale(1.02);
+    }
+    .artı{
+        position: absolute;
+        top:165px;
+        left: 165px;
+        width: 25px;
+        height: 25px;
+        border-radius: 2px 2px 2px 2px;
+        background-color:lightblue ;
+        border: transparent;
+        }
+        .artı:hover{
+        transform: scale(1.02);
+        }
+        .altbtn{
+        position: absolute;
+        height: 35px;
+        width: 270px;
+        top:380px;
+        left: 40px;
+        border-radius: 20px 20px 20px 20px;
+        border: transparent;
+        background-color: rgb(68, 121, 255);
+        color: white;
+        }
+        .altbtn:hover{
+        transform: scale(1.02);
+        }
+        .instck{
+        position: absolute;
+        height: 15px;
+        width: 60px;
+        background-color: rgb(26, 159, 26);
+        top:130px;
+        left: 110px;
+        color: white;
+        font-size: x-small;
+        border-radius: 20px 20px 20px 20px;
+        border: none;
+        }
+        .instck:hover{
+        transform: scale(1.02);
+        }
+        .cizgi{
+        position: absolute;
+        top:200px;
+        left: 50px;
+        color: rgb(47, 46, 46);
+        }
+    .sayı{
+            position: absolute;
+            top:165px;
+            left: 137px;
+            width: 25px;
+            height: 25px;
+            border-radius: 2px 2px 2px 2px;
+            background-color: white;
+            border: 1px solid gray;
+            color: black;
+        }
+    
+
+    
