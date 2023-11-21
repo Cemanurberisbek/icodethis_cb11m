@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Mukta:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:wght@300;400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background: rgb(239, 241, 247);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 7px;
+font-family: 'Lato', sans-serif;
+}
+#kisi1{
+height: 320px;
+width: 310px;
+background-color: #ffff ;
+position: relative;
+top:150px;
+left: 15px;
+border-radius: 5px;
+}
+#kisi1:hover{
+    transform: scale(1.06);
+    background-color: rgb(161, 161, 183);
+    }
+#kisi1 > img{
+    flex: 0 1 10%;
+    max-width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 5px;
+}
+#kisi1 > h3{
+    flex: 1 1 20%;
+    position: relative;
+    top: 75px;
+    left: 5px;
+}
+#kisi1 > p{
+    flex: 1 1 10%;
+    color: gray;
+    font-size: small;
+    position: relative;
+    top:80px;
+    left: 5px;
+}
+#kisi1 > input[type=button]{
+    height: 35px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    font-weight: bolder;
+    text-transform: capitalize;
+    position: relative;
+    top: 130px;
+    left: 5px;
+}
+#btnCnnt1:hover{
+transform: scale(1.08);
+color: white;
+background-color: rgb(116, 141, 255);
+}
+#kisi2{
+height: 360px;
+width: 350px;
+background-color: #ffff ;
+position: relative;
+top:150px;
+z-index: +1;
+box-shadow: 0 0 15px 0 whitesmoke;
+border-radius: 5px;
+}
+#kisi2:hover{
+    transform: scale(1.06);
+    background-color: rgb(161, 161, 183);
+    }
+#kisi2 > img{
+    flex: 0 1 10%;
+    max-width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 5px;
+}
+#kisi2 > h3{
+    flex: 1 1 20%;
+    position: relative;
+    top: 80px;
+}
+#kisi2 > p{
+    flex: 1 1 10%;
+    color: gray;
+    font-size: small;
+    position: relative;
+    top:85px;
+    left: 5px;
+}
+#kisi2 > input[type=button]{
+    height: 35px;
+    width: 120px;
+    border-radius: 3px;
+    font-weight: bolder;
+    color: lightgray;
+    text-transform: capitalize;
+    border: none;
+    position: relative;
+    top:120px;
+    left: 5px;
+}
+#btnCnnt2:hover{
+transform: scale(1.08);
+color: white;
+background-color: rgb(116, 141, 255);
+}
+#kisi3{
+height: 320px;
+width: 310px;
+background-color: #ffff ;
+position: relative;
+top: 150px;
+left: -15px;
+border-radius: 5px;
+}
+#kisi3:hover{
+transform: scale(1.06);
+background-color: rgb(161, 161, 183);
+}
+#kisi3 > img{
+    flex: 0 1 10%;
+    max-width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 5px;
+}
+#kisi3 > h3{
+    flex: 1 1 20%;
+    position: relative;
+    top: 80px;
+}
+#kisi3 > p{
+    flex: 1 1 10%;
+    color: gray;
+    font-size: small;
+    position: relative;
+    top:85px;
+    left: 5px;
+}
+#kisi3 > input[type=button]{
+    height: 35px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    font-weight: bolder;
+    text-transform: capitalize;
+    position: relative;
+    top: 130px;
+    left: 5px;
+}
+#btnCnnt3:hover{
+transform: scale(1.08);
+color: white;
+background-color: rgb(116, 141, 255);
+}
