@@ -12,7 +12,6 @@ align-items: center;
 text-align: center;
 gap: 7px;
 font-family: 'Lato', sans-serif;
-
 }
 #kisi1{
 height: 320px;
@@ -23,6 +22,10 @@ top:150px;
 left: 15px;
 border-radius: 5px;
 }
+#kisi1:hover{
+    transform: scale(1.06);
+    background-color: rgb(161, 161, 183);
+    }
 #kisi1 > img{
     flex: 0 1 10%;
     max-width: 50%;
@@ -49,7 +52,6 @@ border-radius: 5px;
     height: 35px;
     width: 120px;
     border-radius: 3px;
-    background-color:white;
     border: 1px solid lightgray;
     color: lightgray;
     font-weight: bolder;
@@ -73,6 +75,10 @@ z-index: +1;
 box-shadow: 0 0 15px 0 whitesmoke;
 border-radius: 5px;
 }
+#kisi2:hover{
+    transform: scale(1.06);
+    background-color: rgb(161, 161, 183);
+    }
 #kisi2 > img{
     flex: 0 1 10%;
     max-width: 50%;
@@ -98,9 +104,8 @@ border-radius: 5px;
     height: 35px;
     width: 120px;
     border-radius: 3px;
-    background-color:rgb(116, 141, 255);
-    color: white;
     font-weight: bolder;
+    color: lightgray;
     text-transform: capitalize;
     border: none;
     position: relative;
@@ -120,6 +125,10 @@ position: relative;
 top: 150px;
 left: -15px;
 border-radius: 5px;
+}
+#kisi3:hover{
+transform: scale(1.06);
+background-color: rgb(161, 161, 183);
 }
 #kisi3 > img{
     flex: 0 1 10%;
@@ -146,7 +155,6 @@ border-radius: 5px;
     height: 35px;
     width: 120px;
     border-radius: 3px;
-    background-color:white;
     border: 1px solid lightgray;
     color: lightgray;
     font-weight: bolder;
