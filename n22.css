@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Mukta:wght@500&family=Open+Sans:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:rgb(210, 222, 247);
+display: flex;
+min-height: 100vh;
+font-family: 'Lato', sans-serif;
+}
+#tablo{
+background-color: rgb(246, 250, 255);
+width: 600px;
+height: 350px;
+flex-wrap: nowrap;
+align-items: center;
+border-radius: 40px;
+position: relative;
+top: 150px;
+left: 450px;
+box-shadow: 10px 10px 0px 5px rgb(230, 238, 255);
+}
+#tablo > h2{
+    flex: 1 1 5%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+ .y{
+    flex: 1 1 10%;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+#tablo >img{
+    flex: 0 1 10%;
+    max-width: 50%;
+    position: absolute;
+    top: 130px;
+}
+.y1{
+    flex: 1 1 10%;
+    position: absolute;
+    top: 145px;
+    left: 250px;
+}
+.y2{
+    flex: 1 1 10%;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+}
+.y3{
+    flex: 1 1 10%;
+    position: absolute;
+    top: 215px;
+    left: 250px;
+}
+.y4{
+    flex: 1 1 10%;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+.s1{
+position: absolute;
+left: 550px;
+top: 143px;
+font-weight: bold;
+}
+.s2{
+position: absolute;
+left: 550px;
+top: 183px;
+font-weight: bold;
+}
+.s3{
+position: absolute;
+left: 550px;
+top: 217px;
+font-weight: bold;
+}
+.s4{
+position: absolute;
+left: 550px;
+top: 249px;
+font-weight: bold;
+}
+#sayac{
+height: 5px;
+width: 150px;
+border-radius: 2px;
+background-color: rgb(100, 147, 255);
+z-index: +1;
+position: absolute;
+top: 300px;
+right:550px;
+}
+#sayac1{
+    height: 5px;
+    width: 120px;
+    border-radius: 2px;
+    background-color: rgb(77, 118, 214);
+    z-index: +1;
+    position: absolute;
+    top: 340px;
+    right:550px;
+}
+#sayac2{
+    height: 5px;
+    width: 90px;
+    border-radius: 2px;
+    background-color: rgb(20, 83, 233);
+    z-index: +1;
+    position: absolute;
+    top: 375px;
+    right:550px;
+}
+#sayac3{
+    height: 5px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #95B4FF;
+    z-index: +1;
+    position: absolute;
+    top: 408px;
+    right:550px;
+}
+a{
+position: absolute;
+top: 300px;
+left: 500px;
+}
